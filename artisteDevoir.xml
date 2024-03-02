@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="ArtistescallTemplate.xslt"?>
+<CD nom="MON CD">
+    <!--  Les artistes  -->
+    <artiste no="a01" nom="FERGANI Mohamed Taher" ville="Constantine">
+        <site url="http://www.Mohamedfergani.dz"/>
+        <biographie>Ne a Constantine, grand cahnteur de malouf</biographie>
+        <img src="images/FERGANI.jpg" alt="L'image de FERGANI" />
+    </artiste>
+    <artiste no="a03" nom="EL HACHEMI GUEROUABI" ville="Alger">
+        <site url="http://www.ElhachemiGUATWABI.dz"/>
+        <biographie>Ne a alger, grand chanteur de asimi</biographie>
+        <img src="images/GUEROUABI.jpg" alt="L'image de GUEROUABI" />
+    </artiste>
+    <artiste no="a02" nom="BENANI Hamdi" ville="Annaba">
+        <site url="http://www.Bennani Hamedi.dz"/>
+        <biographie>Ne a Annaba, grand chanteur de malouf moderne</biographie>
+        <img src="images/BENANI.jpg" alt="L'image de BENANI" />
+    </artiste>
+    
+    <artiste no="a04" nom="IDIR" ville="TIZI OUZOU">
+        <site url="http://www.IDIR.dz"/>
+        <biographie>Ne a TiziOuzou, grand chanteur de Kabyle</biographie>
+        <img src="images/IDIR.jpg" alt="L'image de IDIR" />
+    </artiste>
+    <!--  Les Albums  -->
+    <album annee="1957" reference="firg">
+        <titre>MALOUF Constantinois</titre>
+        <ref-artiste ref="a01"/>
+        <chansons>
+            <chanson>Yanadim</chanson>
+            <chanson>Layali Sourour</chanson>            
+        </chansons>
+    </album>
+    <album annee="1983" reference="hach2">
+        <titre>ASIMI</titre>
+        <ref-artiste ref="a03"/>
+        <chansons>
+            <chanson>GOULOU Liness</chanson>
+        </chansons>
+    </album>
+    <album annee="1964" reference="hash1">
+        <titre>Réligion</titre>
+        <ref-artiste ref="a03"/>
+        <chansons>
+            <chanson>ADAM WA HAWA</chanson>
+            <chanson>YOUCEF</chanson>
+            
+        </chansons>
+        
+    </album>
+    <album annee="1986" reference="bina1">
+        <titre>Malouf Moderne</titre>
+        <ref-artiste ref="a02"/>
+        <chansons>
+            <chanson>Hama Ya Madani</chanson>
+            <chanson>Bismellah</chanson>            
+        </chansons>
+    </album>
+    <album annee="1999" reference="bina2">
+        <titre>Malouf Annabi</titre>
+        <ref-artiste ref="a02"/>
+        <chansons>
+            <chanson>Bilah Ya Hammama</chanson>
+            <chanson>Bismellah</chanson>
+        </chansons>
+    </album>
+    
+    <album annee="2000" reference="idi">
+        <titre>KABYLE</titre>
+        <ref-artiste ref="a04"/>
+        <chansons>
+            <chanson>I Vava Inouva</chanson>        
+        </chansons>
+    </album>
+</CD>
